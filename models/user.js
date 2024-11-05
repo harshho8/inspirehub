@@ -78,21 +78,6 @@ userSchema.static("matchPassword",async function(email,password){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
